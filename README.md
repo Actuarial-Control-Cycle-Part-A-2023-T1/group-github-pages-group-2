@@ -33,7 +33,12 @@ year with a high degree of certainty.
 
 ### Key Metrics
 
-(TODO)
+The following key metrics will be used to monitor the program’s success annually
+over the short-term (2023-2028) and long-term (2023-2053) time frames:
+1. Number of claims and amounts paid out by each region. 
+2. Percentage of population voluntarily relocating by region.
+3. Reduction in economic costs of involuntary relocation by region. 
+4. Reduction in percentage of GDP expended on relocation. 
 
 ### Assumptions
 
