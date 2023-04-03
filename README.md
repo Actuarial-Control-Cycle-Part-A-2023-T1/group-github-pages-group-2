@@ -12,7 +12,15 @@
 
 ## Overview
 
-(TODO)
+Storslysia is acutely threatened by the impact of natural disasters that are increasing 
+over time due to climate change. The leaders of Storslysia are highly motivated to manage the 
+risks associated with such catastrophes and wish to consider implementing a 
+social relocation insurance program to help manage its exposure to the financial impacts of mass 
+displacement.
+This page outlines the proposed social relocation insurance program available to all citizens for 
+voluntary relocation to help Storslysia manage its exposure to displacement risk 
+arising from catastrophic climate-related events. The program aims to do this by providing monetary 
+incentives for citizens to move out of high-risk geographic regions
 
 ### Key Objectives
 
