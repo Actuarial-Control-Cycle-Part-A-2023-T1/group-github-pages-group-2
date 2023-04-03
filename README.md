@@ -19,12 +19,17 @@ social relocation insurance program to help manage its exposure to the financial
 displacement.
 This page outlines the proposed social relocation insurance program available to all citizens for 
 voluntary relocation to help Storslysia manage its exposure to displacement risk 
-arising from catastrophic climate-related events. The program aims to do this by providing monetary 
-incentives for citizens to move out of high-risk geographic regions
+arising from catastrophic climate-related events.
 
 ### Key Objectives
 
-(TODO)
+There are 3 key objectives for the proposed program:
+1. To provide coverage for all citizens of Storslysia against the financial impacts of emergency
+displacement.
+2. To encourage voluntary, proactive relocation to less risky geographic regions to reduce  economic costs with a high degree of certainty. 
+3. To prevent costs arising from relocation (voluntary or catastrophe-related 
+displacement) from exceeding 10% of Storslysia’s gross domestic product (GDP) each 
+year with a high degree of certainty.
 
 ### Key Metrics
 
