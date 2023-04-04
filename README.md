@@ -20,6 +20,9 @@ displacement.
 This page outlines the proposed social relocation insurance program available to all citizens for 
 voluntary relocation to help Storslysia manage its exposure to displacement risk 
 arising from catastrophic climate-related events.
+<br>
+This project was based on the 2023 SOA Research Institute Student Research Case Study Challenge.
+For more details, please click [here](https://www.soa.org/research/opportunities/2023-student-research-case-study-challenge/).
 
 ### **Key Objectives**
 
