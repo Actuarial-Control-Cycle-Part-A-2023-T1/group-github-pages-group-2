@@ -87,23 +87,49 @@ common practice in the insurance industry.
 
 ## **Program Design**
 
-(TODO)
-
 ### **Claims Requirements, Coverage, and Limitations**
 
-(TODO)
+To be eligible for coverage, Storslysia citizens must be displaced from their home due to a 
+climate catastrophe-related event and must file for a claim within 60 days.
+The program will cover the costs associated with relocation which includes temporary housing, 
+replacement of household items, income loss and medical related costs.
+However, no coverage will be provided for costs associated with permanent relocation or 
+reconstruction of their original home as the program solely focuses on providing insurance for 
+costs pertaining to relocation.
 
 ### **Incentives for Voluntary Relocation**
 
-(TODO)
+Each citizen receives a monetary incentive if they move to another region. The incentive amount 
+is contingent on their current region of residence and the region they will relocate to. The table 
+below shows the incentive amounts that citizens from each region will receive.
+Citizens of regions 1, 3 and 5 do not receive an incentive as they already reside in low-risk regions.
+Furthermore, citizens of region 2, 4, and 6 are only eligible for incentives if they move to region 1 or 3 which have been determined as low risk zones.
+
+| **Region 1** | **Region 2** | **Region 3** | **Region 4** | **Region 5** | **Region 6** |
+| -----------: | -----------: | -----------: | -----------: | -----------: | -----------: |
+| $0           | $2,000       | $0           | $1,000       | $0           | $1,000       |
 
 ### **Other Program Features**
 
-(TODO)
+The program will prioritize the relocation of citizens based in high-risk geographic zones and 
+citizens who cannot afford home and contents insurance and/or earn lower income as they are 
+deemed more vulnerable to hazard events.
 
 ### **Short-term and Long-term Outlook**
 
-(TODO)
+The effectiveness of program will be evaluated in the short-term for years 2023-2028 (5 years)
+and long-term for years 2023-2053 (30 years).
+<br>
+The short-term outlook is chosen to closely monitor key assumptions of the model because our 
+pricing is heavily impacted by climate change which is rapidly evolving and new climate related
+data continues to emerge exponentially. Furthermore, the model also relies on inputs from 
+other climate models which will also continue to improve and evolve over time and so the 
+predictions on climate change impacts will also require the model to be updated accordingly.
+<br>
+The long-term outlook is chosen for evaluating the effectiveness of the program in reducing 
+costs and exposure to climate-related displacement as it allows for meaningful migration of 
+citizens to less riskier regions and the offset of the initial high cost associated with high 
+voluntary movement.
 
 ## **Pricing and Costs**
 
