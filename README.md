@@ -152,7 +152,44 @@ voluntary movement.
 
 ## **Risk and Risk Mitigation Considerations**
 
-(TODO)
+### **Key Risks with Significant Impacts**
+
+| **Key Risks**   | **Likelihood** | **Severity** | **Description** |
+| --------------: | -----------:   | -----------: | :-------------- | 
+| Climate Change  | 3              | 4            | Costs of climate events could evolve to become larger beyond inflation, and the frequency of climate disasters may also increase beyond predictions. By assuming disaster related inflation at 30% and replacement of contents at 60% of property value, we integrate a sufficient margin to such potential impacts.       |
+| Interest/ inflation  | 4            | 1            | Higher rates of inflation will reduce the ability to meet future cost of scheme and lower interest will reduce the accumulation of present-day funds. Such risks have been accounted for through scenario weighted reserves which account for adverse rates and economic capital to meet unexpected losses (see Section 3).       |
+| Relocation Risk  | 3            | 5           | Regions at the focus of relocation can have the potential to be less safe and therefore decrease the effectiveness of relocation. The provision of incentives acts to lower the personal cost of hazards to households as well as to provide ongoing monitoring to adjust relocation assumptions from future data on region specific experience.       |
+| Incentive Risk  | 4            | 3            | From the lack of relocation data, Storslysia’s inhabitants may be more reluctant to voluntarily relocate than expected. Thus, population proportions in safer regions may be overvalued and vice versa, resulting in higher-than-expected costs for the program. This is difficult to assess due to social factors such as lifestyle preferences, familial connections within one’s current location, and sentimental values. Arising primarily from a lack of data, future monitoring on the efficacy/value of incentives can improve program design and modelling aspects susceptible to such risk.       |
+
+### **Risk Mitigation Strategies**
+
+Addressing the stated key risks, our program possesses appropriate risk mitigation strategies which aim to employ elements of risk control and financing.  
+<br>
+| **Key Risks**     | **Mitigation Strategies** |
+| :---------------- | :----------- |
+| Climate Change    | Conservative margins used in assumptions setting, including value of contents and weather inflation, implicitly builds in an allowance for severity related cost increases. Ongoing repricing and monitoring of the suitability of hazard assumptions will further allow the program to adapt to evolving climate-related costs. |
+| Interest/Inflation    | Strategies such as duration matching, and capital modelling can ensure future cash-flows are not adversely affected through interest rate risk. Investment in higher growth assets can also help accumulate capital and make up for future shortfalls from such risks. Investing in inflation indexed assets, although costly, can additionally mitigate the impacts of heightened levels of inflation. |
+| Relocation Risk    | Continual monitoring of regional hazard data is necessary in identifying ineffective hazard reduction efforts and investment in climate-resistant infrastructure can further improve the safety and cost-effectiveness of relocated regions. As the program progresses and new data becomes available, populations residing in hazardous regions can be relocated to newly identified safer regions, enforcing a dynamic risk control approach. |
+| Incentive Risk    | To address mispricing or inadequate incentives, comprehensive modeling and pooled incentives be employed. Personalized incentives based on individual factors can reduce costs and improve the willingness to relocate. Collective incentive funds can also increase purchasing power through economies of scale, making the use of allocated incentives more effective. |
+
+### **Sensitivity Analysis**
+
+To understand the impact of uncertainty and favourable/unfavourable conditions, we imbue moderate increases and decreases to our assumptions and observe the effects on final projection figures. We have chosen to only test the baseline scenario SSP2 as these impacts are shown to be similar across different scenarios. The results of our testing on total costs are detailed below: 
+<br>
+
+**Inflation/interest rates:** Inflation and yields are tested separately, where short and long-term rates are changed by 1%. Note that inflation and yields are directly and inversely related to program costs respectively, due to the cost and investment nature such rates. Such changes have a minor/moderate impact on short and long-term costs respectively and does not undermine the program goals. As such, the severity posed by macroeconomic risk is reasonable.  
+
+**Relocation rates:** Rates of individuals leaving a region are simultaneously increased or decreased by 1% to analyse relocation risk. Changing these rates have a major impact, driven by large voluntary cost changes of up to 51.83%, due to relocations incurring incentive costs. Voluntary costs make up 28 - 62% of total cost in these scenarios, leading to this observation. We note this deviation is lower in the long-term, primarily as migration falls towards the scheme end. As such, relocation risk has a high severity particularly in the short-term and will require monitoring. 
+
+**Incentives:** Altering incentives for migrations to regions 2, 4 and 6 has a major impact in both the short and long-time horizons, with the magnitude of change ranging from 20% to 25%.  Note that this acts to only increase/decrease voluntary costs by 50% which is a large proportion of the total, with displacement costs being unaffected. Therefore, the viability of incentives needs strong levels of further monitoring and calibration to manage incentive risk.  
+
+**Contents/weather inflation:** changes in conditions produce moderate changes to displacement costs of around 14% and 20% respectively. As this does not impact voluntary displacement costs driven by incentives, the overall effect is minor from both a short and long-term perspective. This suggests the risk higher severities arising overtime is overall low. 
+
+### **Certainty of Program Objectives**
+
+A key objective when designing this relocation insurance program was to implement a voluntary relocation program that would reduce the relocation costs arising from climate-related displacement. As discussed in Section 3, the projected displacement costs do decrease significantly for both the short-term and long-term horizons considered. Using the simulation data, it can be shown through CLT calculations that given our distributional assumptions this will occur with a greater than 99.99% confidence level across all the scenarios. This satisfies the high certainty requirement of this objective. The CLT calculations discussed are showcased in detail in the Appendix Part E.  
+
+The secondary key objective was to ensure that the total yearly costs of the program (displacement and voluntary costs) would be less than 10% of yearly GDP. Through our simulations, we implemented automatic checks which would count the number of times this condition was satisfied. By averaging the proportion of times this check was satisfied across all the simulations, we were able to show a greater than 99.99% confidence level that this constraint would be satisfied in any given year across all the scenarios. This also satisfies the high certainty requirement of this objective. 
 
 ## **Data and Data Limitations**
 
