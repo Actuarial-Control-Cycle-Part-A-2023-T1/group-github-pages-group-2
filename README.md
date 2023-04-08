@@ -136,7 +136,6 @@ voluntary movement.
 
 ## **Pricing and Costs**
 
-(TODO)
 
 ### **Cost Projections**
 
