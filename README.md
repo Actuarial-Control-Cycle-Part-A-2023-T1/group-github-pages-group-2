@@ -164,7 +164,7 @@ voluntary movement.
 ### **Risk Mitigation Strategies**
 
 Addressing the stated key risks, our program possesses appropriate risk mitigation strategies which aim to employ elements of risk control and financing.  
-<br>
+
 | **Key Risks**     | **Mitigation Strategies** |
 | :---------------- | :----------- |
 | Climate Change    | Conservative margins used in assumptions setting, including value of contents and weather inflation, implicitly builds in an allowance for severity related cost increases. Ongoing repricing and monitoring of the suitability of hazard assumptions will further allow the program to adapt to evolving climate-related costs. |
@@ -181,13 +181,13 @@ To understand the impact of uncertainty and favourable/unfavourable conditions, 
 <img src="Screenshot 2023-04-08 171527.png"  width="550" height="300"/>
 </div>
 
-**Inflation/interest rates:** Inflation and yields are tested separately, where short and long-term rates are changed by 1%. Note that inflation and yields are directly and inversely related to program costs respectively, due to the cost and investment nature such rates. Such changes have a minor/moderate impact on short and long-term costs respectively and does not undermine the program goals. As such, the severity posed by macroeconomic risk is reasonable.  
+<u><b>Inflation/interest rates:</b></u> Inflation and yields are tested separately, where short and long-term rates are changed by 1%. Note that inflation and yields are directly and inversely related to program costs respectively, due to the cost and investment nature such rates. Such changes have a minor/moderate impact on short and long-term costs respectively and does not undermine the program goals. As such, the severity posed by macroeconomic risk is reasonable.  
 
-**Relocation rates:** Rates of individuals leaving a region are simultaneously increased or decreased by 1% to analyse relocation risk. Changing these rates have a major impact, driven by large voluntary cost changes of up to 51.83%, due to relocations incurring incentive costs. Voluntary costs make up 28 - 62% of total cost in these scenarios, leading to this observation. We note this deviation is lower in the long-term, primarily as migration falls towards the scheme end. As such, relocation risk has a high severity particularly in the short-term and will require monitoring. 
+<u><b>Relocation rates:</b></u> Rates of individuals leaving a region are simultaneously increased or decreased by 1% to analyse relocation risk. Changing these rates have a major impact, driven by large voluntary cost changes of up to 51.83%, due to relocations incurring incentive costs. Voluntary costs make up 28 - 62% of total cost in these scenarios, leading to this observation. We note this deviation is lower in the long-term, primarily as migration falls towards the scheme end. As such, relocation risk has a high severity particularly in the short-term and will require monitoring. 
 
-**Incentives:** Altering incentives for migrations to regions 2, 4 and 6 has a major impact in both the short and long-time horizons, with the magnitude of change ranging from 20% to 25%.  Note that this acts to only increase/decrease voluntary costs by 50% which is a large proportion of the total, with displacement costs being unaffected. Therefore, the viability of incentives needs strong levels of further monitoring and calibration to manage incentive risk.  
+<u><b>Incentives:</b></u> Altering incentives for migrations to regions 2, 4 and 6 has a major impact in both the short and long-time horizons, with the magnitude of change ranging from 20% to 25%.  Note that this acts to only increase/decrease voluntary costs by 50% which is a large proportion of the total, with displacement costs being unaffected. Therefore, the viability of incentives needs strong levels of further monitoring and calibration to manage incentive risk.  
 
-**Contents/weather inflation:** changes in conditions produce moderate changes to displacement costs of around 14% and 20% respectively. As this does not impact voluntary displacement costs driven by incentives, the overall effect is minor from both a short and long-term perspective. This suggests the risk higher severities arising overtime is overall low. 
+<u><b>Contents/weather inflation:</b></u> changes in conditions produce moderate changes to displacement costs of around 14% and 20% respectively. As this does not impact voluntary displacement costs driven by incentives, the overall effect is minor from both a short and long-term perspective. This suggests the risk higher severities arising overtime is overall low. 
 
 ### **Certainty of Program Objectives**
 
