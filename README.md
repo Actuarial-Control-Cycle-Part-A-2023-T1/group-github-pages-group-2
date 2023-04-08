@@ -177,6 +177,10 @@ Addressing the stated key risks, our program possesses appropriate risk mitigati
 To understand the impact of uncertainty and favourable/unfavourable conditions, we imbue moderate increases and decreases to our assumptions and observe the effects on final projection figures. We have chosen to only test the baseline scenario SSP2 as these impacts are shown to be similar across different scenarios. The results of our testing on total costs are detailed below: 
 <br>
 
+<div align="center">
+<img src="Screenshot 2023-04-08 171527.png"  width="550" height="300"/>
+</div>
+
 **Inflation/interest rates:** Inflation and yields are tested separately, where short and long-term rates are changed by 1%. Note that inflation and yields are directly and inversely related to program costs respectively, due to the cost and investment nature such rates. Such changes have a minor/moderate impact on short and long-term costs respectively and does not undermine the program goals. As such, the severity posed by macroeconomic risk is reasonable.  
 
 **Relocation rates:** Rates of individuals leaving a region are simultaneously increased or decreased by 1% to analyse relocation risk. Changing these rates have a major impact, driven by large voluntary cost changes of up to 51.83%, due to relocations incurring incentive costs. Voluntary costs make up 28 - 62% of total cost in these scenarios, leading to this observation. We note this deviation is lower in the long-term, primarily as migration falls towards the scheme end. As such, relocation risk has a high severity particularly in the short-term and will require monitoring. 
