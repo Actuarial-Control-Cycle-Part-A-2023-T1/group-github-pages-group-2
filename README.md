@@ -43,51 +43,6 @@ over the short-term (2023-2028) and long-term (2023-2053) time frames:
 3. Reduction in economic costs of involuntary relocation by region. 
 4. Reduction in percentage of GDP expended on relocation. 
 
-## **Key Assumptions**
-
-### **Financial Assumptions**
-
-* Inflation: Short term inflation of 3.85% in 2023 is assumed which linearly transitions to a 
-long-term baseline at 2.00%. Scenario loadings are applied for the long-term rate.
-* Risk-free yields: short term risk-free rates are assumed at 0.79% in 2023 which linearly 
-transition to a long-term baseline at 2.50%. Scenario loadings are applied for the long-term rate.
-* Historical Population Growth Rate: from years 1960-2020, we assumed that population 
-grew at a rate of 0.85% yearly. This was selected based on the projected population 
-growth rates for future years provided.
-
-### **Relocation Assumptions**
-
-A significant assumption for our voluntary program is that it will cause the population of 
-Storslysia to relocate towards safer regions. Hence, we have implemented a relocation model 
-with the following assumptions.
-
-* We have assumed that the population of Storylsia will be able to relocate to different 
-regions at the start of each year.
-* The rates of relocation are decided by a pre-determined matrix transition rate which 
-specifies the percentage of a region will relocate with respect to its population.
-* This relocation matrix is constant and does not change as the program develops.
-
-We have designed this matrix to replicate the goals of the program and was 
-informed by our region risk analysis. More specifically, to move Storylsias citizens away from 
-high-risk regions to low-risk regions.
-
-### **Yearly Incentives**
-
-Incentive amounts are fixed for each region throughout the program’s timeframe. This is done 
-to simplify calculations. To see the assumed yearly incentives. The value of 
-these incentives directly influences the costs of the program, as a result, they have a significant 
-impact on the projected costs.
-
-### **Distribution Assumptions**
-
-* Relocation severity for each hazard event classification (minor, medium or major) is 
-assumed to be constant and equal to the estimate based on historical values, with only 
-inflation indexing. This is a significant assumption that would impact the variability of 
-our total claim cost.
-* Hazard event frequency is assumed to follow a Poisson distribution and grows as per the 
-projection model provided. Poisson is a natural distribution to use for count data and is 
-common practice in the insurance industry.
-
 ## **Program Design**
 
 ### **Claims Requirements, Coverage, and Limitations**
@@ -134,46 +89,6 @@ costs and exposure to climate-related displacement as it allows for meaningful m
 citizens to less riskier regions and the offset of the initial high cost associated with high 
 voluntary movement.
 
-## **Pricing and Costs**
-
-### **Cost Projections**
-
-The short-term and long-term costs were simulated using the SSP frequency projections combined with the 2020 severity estimates. 500 simulations were run, in order to obtain the benefit of the LLN (Law of Large Numbers) where we could conduct CLT (Central Limit Theorem) hypothesis tests and accurately estimate the upper quantiles of our total cost distribution for solvency capital reasons. The simulation results are described in the table and visuals below.
-
-(Add Table)
-
-(Add Visuals)
-
-By comparing the cost projections, we can see that the program decreases the mean displacement cost. This is expected as the program will influence people to relocate from Storslysia’s high risk regions to lower risk regions. We have confidence that this will occur with a greater than 99.99% confidence level from our CLT calculations. This satisfies the high degree of confidence required by our program goals.
-
-We can also see that the relative displacement cost of the program, in comparison to without the program decreases with a longer time horizon. This is intuitive as the longer the time horizon, the more relocated the population will be away from high-risk regions to low-risk regions. The implication is that the voluntary relocation program will not significantly decrease costs in the short term but lead to strong cost decreases for longer time horizons. This should be considered in the programs monitoring processes.
-
-### **Solvency Capital for Total Cost**
-
-To cover the displacement costs arising from climate-catastrophe related disasters and provide incentive packages to relocating citizens, Storslysia will need to hold a certain amount of capital in the short term to remain solvent which is known as the solvency capital. The mean total cost would not be sufficient as there is a significant chance that the total cost will be greater than the mean. To determine an appropriate solvency capital, the approximate distribution of the total cost needs to be simulated. The distribution of the simulated total cost over a 5-year time horizon for each scenario can be observed below:
-
-(add visuals)
-
-For our solvency capital, we will be using the figures calculated from the Value at Risk and Conditional Value at Risk at a 99.5% level looking at a 5-year time horizon. These are tabulated for each scenario below:
-
-(Add Table)
-
-Since CVaR represents the mean of the losses above the VaR, it is a more conservative estimate for the solvency capital. Additionally, CVaR is more commonly used in practice for insurance solvency requirements and consequently it will be used.
-
-Based on the different emissions scenarios, we get various estimates as to what this solvency capital could be. Since this report does not explore the likelihood of any of these scenarios, we will assume a solvency capital figure that is the equal weighted average of these four scenarios. Hence our final 5-year solvency capital that we recommend for the program is Ꝕ10,486 m.
-
-### **Voluntary Costs vs Emergency Displacement Costs**
-
-With the given program design discussed above, the contrast between the voluntary and displacement costs can be observed from the expected yearly and cumulative line charts below. For simplicity, we have only considered SSP2 as similar behavior is shown across all the scenarios:
-
-(add visuals)
-
-During the initial years of the program, we can observe that there is a higher proportion of voluntary costs in comparison to displacement costs. This is intuitive for two main reasons.
-
-Firstly, due to our constant relocation rates, there is higher amounts of relocation toward the start of the program leading to more incentive payments being paid. Additionally, in the short term, the population is in the process of relocating to lower risk regions. This implies that the cost savings from the relocation program haven’t fully developed yet.
-
-As the program develops, the voluntary costs significantly decrease as the population is significantly relocated and there are fewer people in high-risk regions. Despite this relocation, the displacement costs continue to steadily increase as the frequency of climate disasters continue to rise, according to the SSP2 disaster frequency projection. As a result, the proportion of voluntary costs to displacement costs decreases as the program develops.
-
 ## **Region Analysis**
 
 After estimating the relocation cost per capita from the historical data, it then became important to understand which regions would be considered high risk and low risk to inform the decision making for our voluntary relocation program. 
@@ -193,6 +108,51 @@ Because of these findings, we have decided on the following goals for our volunt
 * Our Program will seek to relocate individuals from region 2, 4 and 6 which are deemed high-risk to regions 1 and 3 which are deemed low risk.
 * The program will specifically focus on relocating citizens from region 2. This is because region 2 has the highest cost per capita out of all the high-risk regions and has a relatively high population of 4,993,764 citizens. 
 * Due to region 1 and 3’s similar cost per capita, we will not favor one region over the other for relocation choice.
+
+## **Key Assumptions**
+
+### **Macroeconomic Assumptions**
+
+* Inflation: Short term inflation of 3.85% in 2023 is assumed which linearly transitions to a 
+long-term baseline at 2.00%. Scenario loadings are applied for the long-term rate.
+* Risk-free yields: short term risk-free rates are assumed at 0.79% in 2023 which linearly 
+transition to a long-term baseline at 2.50%. Scenario loadings are applied for the long-term rate.
+* Historical Population Growth Rate: from years 1960-2020, we assumed that population 
+grew at a rate of 0.85% yearly. This was selected based on the projected population 
+growth rates for future years provided.
+
+### **Relocation Assumptions**
+
+A significant assumption for our voluntary program is that it will cause the population of 
+Storslysia to relocate towards safer regions. Hence, we have implemented a relocation model 
+with the following assumptions.
+
+* We have assumed that the population of Storylsia will be able to relocate to different 
+regions at the start of each year.
+* The rates of relocation are decided by a pre-determined matrix transition rate which 
+specifies the percentage of a region will relocate with respect to its population.
+* This relocation matrix is constant and does not change as the program develops.
+
+We have designed this matrix to replicate the goals of the program and was 
+informed by our region risk analysis. More specifically, to move Storylsias citizens away from 
+high-risk regions to low-risk regions.
+
+### **Yearly Incentives**
+
+Incentive amounts are fixed for each region throughout the program’s timeframe. This is done 
+to simplify calculations. To see the assumed yearly incentives. The value of 
+these incentives directly influences the costs of the program, as a result, they have a significant 
+impact on the projected costs.
+
+### **Distribution Assumptions**
+
+* Relocation severity for each hazard event classification (minor, medium or major) is 
+assumed to be constant and equal to the estimate based on historical values, with only 
+inflation indexing. This is a significant assumption that would impact the variability of 
+our total claim cost.
+* Hazard event frequency is assumed to follow a Poisson distribution and grows as per the 
+projection model provided. Poisson is a natural distribution to use for count data and is 
+common practice in the insurance industry.
 
 ## **Methedology for Relocation Cost Calculations**
 
@@ -244,6 +204,45 @@ As described in Part B of the Appendix, the aim of the program is to relocate ci
 
 The rates were chosen through mainly experimentation. The rates are meant to reflect an optimal relocation rate that achieves a balance between lowering displacement costs, while still being a reasonable amount of relocation for the government to achieve.  Additionally, the doubled relocation rate for region 2 is justified due to the increased emphasis on region 2 in the program design from section 2. Region 2 is getting double the incentive of region 4 and 6 and hence a double relocation rate would be in alignment with that program specification. 
 
+## **Pricing and Costs**
+
+### **Cost Projections**
+
+The short-term and long-term costs were simulated using the SSP frequency projections combined with the 2020 severity estimates. 500 simulations were run, in order to obtain the benefit of the LLN (Law of Large Numbers) where we could conduct CLT (Central Limit Theorem) hypothesis tests and accurately estimate the upper quantiles of our total cost distribution for solvency capital reasons. The simulation results are described in the table and visuals below.
+
+(Add Table)
+
+(Add Visuals)
+
+By comparing the cost projections, we can see that the program decreases the mean displacement cost. This is expected as the program will influence people to relocate from Storslysia’s high risk regions to lower risk regions. We have confidence that this will occur with a greater than 99.99% confidence level from our CLT calculations. This satisfies the high degree of confidence required by our program goals.
+
+We can also see that the relative displacement cost of the program, in comparison to without the program decreases with a longer time horizon. This is intuitive as the longer the time horizon, the more relocated the population will be away from high-risk regions to low-risk regions. The implication is that the voluntary relocation program will not significantly decrease costs in the short term but lead to strong cost decreases for longer time horizons. This should be considered in the programs monitoring processes.
+
+### **Solvency Capital for Total Cost**
+
+To cover the displacement costs arising from climate-catastrophe related disasters and provide incentive packages to relocating citizens, Storslysia will need to hold a certain amount of capital in the short term to remain solvent which is known as the solvency capital. The mean total cost would not be sufficient as there is a significant chance that the total cost will be greater than the mean. To determine an appropriate solvency capital, the approximate distribution of the total cost needs to be simulated. The distribution of the simulated total cost over a 5-year time horizon for each scenario can be observed below:
+
+(add visuals)
+
+For our solvency capital, we will be using the figures calculated from the Value at Risk and Conditional Value at Risk at a 99.5% level looking at a 5-year time horizon. These are tabulated for each scenario below:
+
+(Add Table)
+
+Since CVaR represents the mean of the losses above the VaR, it is a more conservative estimate for the solvency capital. Additionally, CVaR is more commonly used in practice for insurance solvency requirements and consequently it will be used.
+
+Based on the different emissions scenarios, we get various estimates as to what this solvency capital could be. Since this report does not explore the likelihood of any of these scenarios, we will assume a solvency capital figure that is the equal weighted average of these four scenarios. Hence our final 5-year solvency capital that we recommend for the program is Ꝕ10,486 m.
+
+### **Voluntary Costs vs Emergency Displacement Costs**
+
+With the given program design discussed above, the contrast between the voluntary and displacement costs can be observed from the expected yearly and cumulative line charts below. For simplicity, we have only considered SSP2 as similar behavior is shown across all the scenarios:
+
+(add visuals)
+
+During the initial years of the program, we can observe that there is a higher proportion of voluntary costs in comparison to displacement costs. This is intuitive for two main reasons.
+
+Firstly, due to our constant relocation rates, there is higher amounts of relocation toward the start of the program leading to more incentive payments being paid. Additionally, in the short term, the population is in the process of relocating to lower risk regions. This implies that the cost savings from the relocation program haven’t fully developed yet.
+
+As the program develops, the voluntary costs significantly decrease as the population is significantly relocated and there are fewer people in high-risk regions. Despite this relocation, the displacement costs continue to steadily increase as the frequency of climate disasters continue to rise, according to the SSP2 disaster frequency projection. As a result, the proportion of voluntary costs to displacement costs decreases as the program develops.
 
 ## **Risk and Risk Mitigation Considerations**
 
