@@ -140,6 +140,14 @@ voluntary movement.
 
 The short-term and long-term costs were simulated using the SSP frequency projections combined with the 2020 severity estimates. 500 simulations were run, in order to obtain the benefit of the LLN (Law of Large Numbers) where we could conduct CLT (Central Limit Theorem) hypothesis tests and accurately estimate the upper quantiles of our total cost distribution for solvency capital reasons. The simulation results are described in the table and visuals below.
 
+(Add Table)
+
+(Add Visuals)
+
+By comparing the cost projections, we can see that the program decreases the mean displacement cost. This is expected as the program will influence people to relocate from Storslysia’s high risk regions to lower risk regions. We have confidence that this will occur with a greater than 99.99% confidence level from our CLT calculations. This satisfies the high degree of confidence required by our program goals.
+
+We can also see that the relative displacement cost of the program, in comparison to without the program decreases with a longer time horizon. This is intuitive as the longer the time horizon, the more relocated the population will be away from high-risk regions to low-risk regions. The implication is that the voluntary relocation program will not significantly decrease costs in the short term but lead to strong cost decreases for longer time horizons. This should be considered in the programs monitoring processes.
+
 ### **Solvency Capital for Total Cost**
 
 (TODO)
