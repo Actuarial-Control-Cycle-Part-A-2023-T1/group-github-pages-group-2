@@ -174,6 +174,47 @@ Firstly, due to our constant relocation rates, there is higher amounts of reloca
 
 As the program develops, the voluntary costs significantly decrease as the population is significantly relocated and there are fewer people in high-risk regions. Despite this relocation, the displacement costs continue to steadily increase as the frequency of climate disasters continue to rise, according to the SSP2 disaster frequency projection. As a result, the proportion of voluntary costs to displacement costs decreases as the program develops.
 
+## **Region Analysis**
+
+After estimating the relocation cost per capita from the historical data, it then became important to understand which regions would be considered high risk and low risk to inform the decision making for our voluntary relocation program. 
+
+The historical data was collated into a 10-year moving average time series observing the relocation cost per capita for each year inflated to 2020. Additionally, the frequency and severity cost per capita values were tabulated in table 7b to indicate the quantitative risk for each region across the 1960-2020 historical period.
+
+(add visual)
+
+(add table)
+
+From the table and chart above, we can breakdown the regions into the following categories:
+* Regions 1 and 3 are **Low** risk. They have the lowest cost per capita at Ꝕ4.48 and Ꝕ10.00 respectively.
+* Regions 2, 4 and 6 are **High** risk. It has the highest cost per capita at Ꝕ39.36, Ꝕ33.00 and Ꝕ25.12 respectively.
+* Regions 5 is difficult to categorize into a low-risk or a high-risk category. It has a reasonably high cost per capita at Ꝕ25.12, but this is largely driven by a large major event that occurred in 1989.
+
+Because of these findings, we have decided on the following goals for our voluntary relocation program.
+* Our Program will seek to relocate individuals from region 2, 4 and 6 which are deemed high-risk to regions 1 and 3 which are deemed low risk.
+* The program will specifically focus on relocating citizens from region 2. This is because region 2 has the highest cost per capita out of all the high-risk regions and has a relatively high population of 4,993,764 citizens. 
+* Due to region 1 and 3’s similar cost per capita, we will not favor one region over the other for relocation choice.
+
+
+## **Relocation Model**
+
+A significant motivation of this program is the reduction in climate-related displacement costs throughout Storylsia. The way that Storslysia’s task force has asked this to be implemented is through a voluntary relocation program where an incentive is offered for those who voluntarily decide to move to low-risk regions we decide.
+
+This was achieved by implementing a population model which allows for the relocation of the population every year. This population model assumes the following:
+
+* Citizens are allowed to relocate at the start of the year.
+* This relocation is independent of other factors of the model. 
+* The relocation rates are constant and do not change throughout the projected timeframe. 
+* The population still grows as described by the SSP projected population growth rates.
+
+The relocation model is run using a deterministic transition rate matrix as described by table 7b. The row of the matrix corresponds to where the individual is relocating from while the column corresponds to the region that individual wants to relocate to. These rates are applied on a yearly basis.
+
+(insert matrix)
+
+As described in Part B of the Appendix, the aim of the program is to relocate citizens from regions 2, 4 and 6 towards regions 1 and 3. For regions 4 and 6, we have assumed a 2% relocation rate while region 2 has a doubled assumed relocation rate of 4%. 
+
+The rates were chosen through mainly experimentation. The rates are meant to reflect an optimal relocation rate that achieves a balance between lowering displacement costs, while still being a reasonable amount of relocation for the government to achieve.  Additionally, the doubled relocation rate for region 2 is justified due to the increased emphasis on region 2 in the program design from section 2. Region 2 is getting double the incentive of region 4 and 6 and hence a double relocation rate would be in alignment with that program specification. 
+
+
 ## **Risk and Risk Mitigation Considerations**
 
 ### **Key Risks with Significant Impacts**
