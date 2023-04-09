@@ -194,6 +194,34 @@ Because of these findings, we have decided on the following goals for our volunt
 * The program will specifically focus on relocating citizens from region 2. This is because region 2 has the highest cost per capita out of all the high-risk regions and has a relatively high population of 4,993,764 citizens. 
 * Due to region 1 and 3’s similar cost per capita, we will not favor one region over the other for relocation choice.
 
+## **Methedology for Relocation Cost Calculations**
+
+The historical hazard data contained hazard data from years 1960-2020 which contained the specifics of every natural hazard event that took place. For each hazard event the following damages were recorded, the property damage, the number of injuries and the number of fatalities. Using these variables, we constructed a relocation cost variable that represents the amount the program would have paid out in relocation claims. The calculations are given below:
+
+**Contents Damage**
+:This was calculated as a percentage of the property damage. The parameter value that was decided on was 60%.
+
+**Temporary Housing Costs**
+:This cost was estimated on a per Ꝕ of property damage basis. The calculation of this cost is given by:
+* Calculating the mean property value for each region. This was done using the distribution of property values that was given to us in the demographic data.
+* $\text{Number of households impacted per Ꝕ of damage} = \frac{1}{\text{Region Mean Property Value}}$
+* $\text{Number of people impacted per Ꝕ of damage} = \text{Number of households impacted per Ꝕ of damage} \times \text{Number of People per Household}$
+* $\text{Temporary housing cost per month per Ꝕ of damage} = \text{Number of people impacted per Ꝕ damage} \times \text{Regions Temporary Housing Cost per month per person}$
+* $\text{Temporary Housing cost per Ꝕ of damage} = \text{Temporary housing cost per month per Ꝕ of damage} \times \text{Assumed length of building reconstruction}$
+* This was then deflated back to 2020 Ꝕ values.
+
+**Medical Costs**: 
+This was estimated as a cost per injury in 2020 Ꝕ values. The calculation is given by:
+* We started with the *Total health care and social assistance receipts/revenue 2017* statistic given in the demographic data. We see this as a strong representation of the total amount spent on medical fees for 2017.
+* $\text{Health Care Costs per capita 2017} = \frac{\text{Total health care and social assistance receipts/revenue 2017}}{\text{2017 Population}}$
+* The Health Care Costs per capita 2017 was then inflated to represent the Health Care per Capita in 2020 Ꝕ.
+* $\text{Medical Cost for Injury 2020} = \text{assumed length of injury recovery} \times \text{Health Care Costs per Capita 2020}$.
+
+**Workers Compensation for Injury Costs**: 
+This was estimated as a cost per injury in 2020 Ꝕ values. The calculation is given by:
+* Starting with the *Prior Year per Capita Income* statistic given in the demographic data. It was assumed that this was referring to the 2022 per Capita Income.
+* This value was then deflated to 2020 Ꝕs. 
+* $\text{Workers Compensation Cost for Injury 2020} = \text{Assumed length of injury recovery} \times \text{2020 per Capita Income}$.
 
 ## **Relocation Model**
 
