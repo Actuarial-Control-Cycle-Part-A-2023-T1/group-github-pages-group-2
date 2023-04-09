@@ -150,11 +150,29 @@ We can also see that the relative displacement cost of the program, in compariso
 
 ### **Solvency Capital for Total Cost**
 
-(TODO)
+To cover the displacement costs arising from climate-catastrophe related disasters and provide incentive packages to relocating citizens, Storslysia will need to hold a certain amount of capital in the short term to remain solvent which is known as the solvency capital. The mean total cost would not be sufficient as there is a significant chance that the total cost will be greater than the mean. To determine an appropriate solvency capital, the approximate distribution of the total cost needs to be simulated. The distribution of the simulated total cost over a 5-year time horizon for each scenario can be observed below:
+
+(add visuals)
+
+For our solvency capital, we will be using the figures calculated from the Value at Risk and Conditional Value at Risk at a 99.5% level looking at a 5-year time horizon. These are tabulated for each scenario below:
+
+(Add Table)
+
+Since CVaR represents the mean of the losses above the VaR, it is a more conservative estimate for the solvency capital. Additionally, CVaR is more commonly used in practice for insurance solvency requirements and consequently it will be used.
+
+Based on the different emissions scenarios, we get various estimates as to what this solvency capital could be. Since this report does not explore the likelihood of any of these scenarios, we will assume a solvency capital figure that is the equal weighted average of these four scenarios. Hence our final 5-year solvency capital that we recommend for the program is Ꝕ10,486 m.
 
 ### **Voluntary Costs vs Emergency Displacement Costs**
 
-(TODO)
+With the given program design discussed above, the contrast between the voluntary and displacement costs can be observed from the expected yearly and cumulative line charts below. For simplicity, we have only considered SSP2 as similar behavior is shown across all the scenarios:
+
+(add visuals)
+
+During the initial years of the program, we can observe that there is a higher proportion of voluntary costs in comparison to displacement costs. This is intuitive for two main reasons.
+
+Firstly, due to our constant relocation rates, there is higher amounts of relocation toward the start of the program leading to more incentive payments being paid. Additionally, in the short term, the population is in the process of relocating to lower risk regions. This implies that the cost savings from the relocation program haven’t fully developed yet.
+
+As the program develops, the voluntary costs significantly decrease as the population is significantly relocated and there are fewer people in high-risk regions. Despite this relocation, the displacement costs continue to steadily increase as the frequency of climate disasters continue to rise, according to the SSP2 disaster frequency projection. As a result, the proportion of voluntary costs to displacement costs decreases as the program develops.
 
 ## **Risk and Risk Mitigation Considerations**
 
