@@ -136,11 +136,9 @@ voluntary movement.
 
 ## **Pricing and Costs**
 
-(TODO)
-
 ### **Cost Projections**
 
-(TODO)
+The short-term and long-term costs were simulated using the SSP frequency projections combined with the 2020 severity estimates. 500 simulations were run, in order to obtain the benefit of the LLN (Law of Large Numbers) where we could conduct CLT (Central Limit Theorem) hypothesis tests and accurately estimate the upper quantiles of our total cost distribution for solvency capital reasons. The simulation results are described in the table and visuals below.
 
 ### **Solvency Capital for Total Cost**
 
