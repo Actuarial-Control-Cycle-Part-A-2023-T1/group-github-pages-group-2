@@ -154,7 +154,7 @@ our total claim cost.
 projection model provided. Poisson is a natural distribution to use for count data and is 
 common practice in the insurance industry.
 
-## **Methedology for Relocation Cost Calculations**
+## **Methodology for Relocation Cost Calculations**
 
 The historical hazard data contained hazard data from years 1960-2020 which contained the specifics of every natural hazard event that took place. For each hazard event the following damages were recorded, the property damage, the number of injuries and the number of fatalities. Using these variables, we constructed a relocation cost variable that represents the amount the program would have paid out in relocation claims. The calculations are given below:
 
