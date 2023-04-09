@@ -43,9 +43,9 @@ over the short-term (2023-2028) and long-term (2023-2053) time frames:
 3. Reduction in economic costs of involuntary relocation by region. 
 4. Reduction in percentage of GDP expended on relocation. 
 
-### **Key Assumptions**
+## **Key Assumptions**
 
-**Financial Assumptions**
+### **Financial Assumptions**
 
 * Inflation: Short term inflation of 3.85% in 2023 is assumed which linearly transitions to a 
 long-term baseline at 2.00%. Scenario loadings are applied for the long-term rate.
@@ -55,7 +55,7 @@ transition to a long-term baseline at 2.50%. Scenario loadings are applied for t
 grew at a rate of 0.85% yearly. This was selected based on the projected population 
 growth rates for future years provided.
 
-**Relocation Assumptions**
+### **Relocation Assumptions**
 
 A significant assumption for our voluntary program is that it will cause the population of 
 Storslysia to relocate towards safer regions. Hence, we have implemented a relocation model 
@@ -71,14 +71,14 @@ We have designed this matrix to replicate the goals of the program and was
 informed by our region risk analysis. More specifically, to move Storylsias citizens away from 
 high-risk regions to low-risk regions.
 
-**Yearly Incentives**
+### **Yearly Incentives**
 
 Incentive amounts are fixed for each region throughout the program’s timeframe. This is done 
 to simplify calculations. To see the assumed yearly incentives. The value of 
 these incentives directly influences the costs of the program, as a result, they have a significant 
 impact on the projected costs.
 
-**Distribution Assumptions**
+### **Distribution Assumptions**
 
 * Relocation severity for each hazard event classification (minor, medium or major) is 
 assumed to be constant and equal to the estimate based on historical values, with only 
