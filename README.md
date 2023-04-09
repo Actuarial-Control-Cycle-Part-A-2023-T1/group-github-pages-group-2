@@ -223,6 +223,8 @@ This was estimated as a cost per injury in 2020 Ꝕ values. The calculation is g
 * This value was then deflated to 2020 Ꝕs. 
 * $\text{Workers Compensation Cost for Injury 2020} = \text{Assumed length of injury recovery} \times \text{2020 per Capita Income}$.
 
+With these calculations, the minor, medium and major event frequencies and severities for 2020 can then be calculated using the relocation cost per capita.
+
 ## **Relocation Model**
 
 A significant motivation of this program is the reduction in climate-related displacement costs throughout Storylsia. The way that Storslysia’s task force has asked this to be implemented is through a voluntary relocation program where an incentive is offered for those who voluntarily decide to move to low-risk regions we decide.
