@@ -69,10 +69,10 @@ costs pertaining to relocation.
 ### **Incentives for Voluntary Relocation**
 
 Each citizen receives a monetary incentive if they move to another region. The incentive amount 
-is contingent on their current region of residence and the region they will relocate to. The table 
+is contingent on their current region of residence. The table 
 below shows the incentive amounts that citizens from each region will receive.
 Citizens of regions 1, 3 and 5 do not receive an incentive as they already reside in low-risk regions.
-Furthermore, citizens of region 2, 4, and 6 are only eligible for incentives if they move to region 1 or 3 which have been determined as low risk zones.
+Furthermore, citizens of region 2, 4, and 6 are in high risk regions are only eligible for incentives if they move to region 1 or 3 which have been determined as our region relocation targets. This is discussed more in depth [here](#region-analysis).
 
 | **Region 1** | **Region 2** | **Region 3** | **Region 4** | **Region 5** | **Region 6** |
 | -----------: | -----------: | -----------: | -----------: | -----------: | -----------: |
@@ -86,15 +86,17 @@ deemed more vulnerable to hazard events.
 
 ### **Short-term and Long-term Outlook**
 
-The effectiveness of program will be evaluated in the short-term for years 2023-2028 (5 years)
+The effectiveness of the program will be evaluated in the short-term for years 2023-2028 (5 years)
 and long-term for years 2023-2053 (30 years).
 <br>
+
 The short-term outlook is chosen to closely monitor key assumptions of the model because our 
 pricing is heavily impacted by climate change which is rapidly evolving and new climate related
 data continues to emerge exponentially. Furthermore, the model also relies on inputs from 
 other climate models which will also continue to improve and evolve over time and so the 
 predictions on climate change impacts will also require the model to be updated accordingly.
 <br>
+
 The long-term outlook is chosen for evaluating the effectiveness of the program in reducing 
 costs and exposure to climate-related displacement as it allows for meaningful migration of 
 citizens to less riskier regions and the offset of the initial high cost associated with high 
@@ -154,13 +156,13 @@ specifies the percentage of a region will relocate with respect to its populatio
 * This relocation matrix is constant and does not change as the program develops.
 
 We have designed this matrix to replicate the goals of the program and was 
-informed by our region risk analysis. More specifically, to move Storylsias citizens away from 
-high-risk regions to low-risk regions.
+informed by our [region analysis](#region-analysis). More specifically, to move Storylsias citizens away from 
+high-risk regions to low-risk regions. This is discussed more in depth [here](#relocation-model).
 
 ### **Yearly Incentives**
 
 Incentive amounts are fixed for each region throughout the program’s timeframe. This is done 
-to simplify calculations. To see the assumed yearly incentives. The value of 
+to simplify calculations. The assumed yearly incentive values can be seen [here](#program-design). The value of 
 these incentives directly influences the costs of the program, as a result, they have a significant 
 impact on the projected costs.
 
@@ -227,7 +229,7 @@ The relocation model is run using a deterministic transition rate matrix as desc
 | **5** | 0% | 0% | 0% | 0% | 100% | 0% |
 | **6** | 1% | 0% | 1% | 0% | 0% | 98% |
 
-As described in Part B of the Appendix, the aim of the program is to relocate citizens from regions 2, 4 and 6 towards regions 1 and 3. For regions 4 and 6, we have assumed a 2% relocation rate while region 2 has a doubled assumed relocation rate of 4%. 
+As described in [Region Analysis](#region-analysis), the aim of the program is to relocate citizens from regions 2, 4 and 6 towards regions 1 and 3. For regions 4 and 6, we have assumed a 2% relocation rate while region 2 has a doubled assumed relocation rate of 4%. 
 
 The rates were chosen through mainly experimentation. The rates are meant to reflect an optimal relocation rate that achieves a balance between lowering displacement costs, while still being a reasonable amount of relocation for the government to achieve.  Additionally, the doubled relocation rate for region 2 is justified due to the increased emphasis on region 2 in the program design from section 2. Region 2 is getting double the incentive of region 4 and 6 and hence a double relocation rate would be in alignment with that program specification. 
 
@@ -278,7 +280,7 @@ For our solvency capital, we will be using the figures calculated from the Value
 
 Since CVaR represents the mean of the losses above the VaR, it is a more conservative estimate for the solvency capital. Additionally, CVaR is more commonly used in practice for insurance solvency requirements and consequently it will be used.
 
-Based on the different emissions scenarios, we get various estimates as to what this solvency capital could be. Since this report does not explore the likelihood of any of these scenarios, we will assume a solvency capital figure that is the equal weighted average of these four scenarios. Hence our final 5-year solvency capital that we recommend for the program is Ꝕ10,486 m.
+Based on the different emissions scenarios, we get various estimates as to what this solvency capital could be. Since this report does not explore the likelihood of any of these scenarios, we will assume a solvency capital figure that is the equal weighted average of these four scenarios. Hence our final 5-year solvency capital that we recommend for the program is **Ꝕ10,486 m**.
 
 ### **Voluntary Costs vs Emergency Displacement Costs**
 
@@ -335,7 +337,7 @@ To understand the impact of uncertainty and favourable/unfavourable conditions, 
 
 ### **Certainty of Program Objectives**
 
-A key objective when designing this relocation insurance program was to implement a voluntary relocation program that would reduce the relocation costs arising from climate-related displacement. As discussed in Section 3, the projected displacement costs do decrease significantly for both the short-term and long-term horizons considered. Using the simulation data, it can be shown through CLT calculations that given our distributional assumptions this will occur with a greater than 99.99% confidence level across all the scenarios. This satisfies the high certainty requirement of this objective. The CLT calculations discussed are showcased in detail in the Appendix Part E.  
+A key objective when designing this relocation insurance program was to implement a voluntary relocation program that would reduce the relocation costs arising from climate-related displacement. As discussed in [Pricing and Costs](#pricing-and-costs), the projected displacement costs do decrease significantly for both the short-term and long-term horizons considered. Using the simulation data, it can be shown through CLT calculations that given our distributional assumptions this will occur with a greater than 99.99% confidence level across all the scenarios. This satisfies the high certainty requirement of this objective. 
 
 The secondary key objective was to ensure that the total yearly costs of the program (displacement and voluntary costs) would be less than 10% of yearly GDP. Through our simulations, we implemented automatic checks which would count the number of times this condition was satisfied. By averaging the proportion of times this check was satisfied across all the simulations, we were able to show a greater than 99.99% confidence level that this constraint would be satisfied in any given year across all the scenarios. This also satisfies the high certainty requirement of this objective. 
 
