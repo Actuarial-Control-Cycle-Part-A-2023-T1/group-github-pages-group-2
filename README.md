@@ -252,7 +252,7 @@ The short-term and long-term costs were simulated using the SSP frequency projec
 | 30 years | Ꝕ10,839 m | Ꝕ11,287 m | Ꝕ11,501 m | Ꝕ12,076 m |
 
 <div align="left">
-<img src="BarCharts.png"  width="1000" height="350"/>
+<img src="BarCharts.png"  width="1200" height="350"/>
 </div>
 
 By comparing the cost projections, we can see that the program decreases the mean displacement cost. This is expected as the program will influence people to relocate from Storslysia’s high risk regions to lower risk regions. We have confidence that this will occur with a greater than 99.99% confidence level from our CLT calculations. This satisfies the high degree of confidence required by our program goals.
@@ -284,7 +284,9 @@ Based on the different emissions scenarios, we get various estimates as to what 
 
 With the given program design discussed above, the contrast between the voluntary and displacement costs can be observed from the expected yearly and cumulative line charts below. For simplicity, we have only considered SSP2 as similar behavior is shown across all the scenarios:
 
-(add visuals)
+<div align="left">
+<img src="CostComparison.png"  width="1200" height="350"/>
+</div>
 
 During the initial years of the program, we can observe that there is a higher proportion of voluntary costs in comparison to displacement costs. This is intuitive for two main reasons.
 
