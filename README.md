@@ -95,7 +95,9 @@ After estimating the relocation cost per capita from the historical data, it the
 
 The historical data was collated into a 10-year moving average time series observing the relocation cost per capita for each year inflated to 2020. Additionally, the frequency and severity cost per capita values were tabulated in table 7b to indicate the quantitative risk for each region across the 1960-2020 historical period.
 
-(add visual)
+<div align="left">
+<img src="Region Analysis.png"  width="600" height="350"/>
+</div>
 
 | **Region**   | **Minor cpc** | **Medium cpc** | **Major cpc** | **Total cpc** | **Population** |
 | -----------: | ----------:   | -------------: | ------------: | ------------: | -------------: |
