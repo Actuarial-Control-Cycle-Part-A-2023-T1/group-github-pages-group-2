@@ -10,6 +10,17 @@
 <img src="global.gif"  width="960" height="541.5"/>
 </div>
 
+# **Table of Contents**
+1. [Overview](#overview)
+2. [Program Design](#program-design)
+3. [Region Analysis](#region-analysis)
+4. [Key Assumptions](#key-assumptions)
+5. [Methodology for Relocation Cost Calculations](#methodology-for-relocation-cost-calculations)
+6. [Relocation Model](#relocation-model)
+7. [Pricing and Costs](#pricing-and-costs)
+8. [Risk and Risk Mitigation Considerations](#risk-and-risk-mitigation-considerations)
+9. [Data and Data Limitations](#data-and-data-limitations)
+
 ## **Overview**
 
 Storslysia is acutely threatened by the impact of natural disasters that are increasing 
