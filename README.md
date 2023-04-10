@@ -207,7 +207,14 @@ This was achieved by implementing a population model which allows for the reloca
 
 The relocation model is run using a deterministic transition rate matrix as described by table 7b. The row of the matrix corresponds to where the individual is relocating from while the column corresponds to the region that individual wants to relocate to. These rates are applied on a yearly basis.
 
-(insert matrix)
+| **Region**   | **1** | **2** | **3** | **4** | **5** | **6** |
+| :----------: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **1** | 100% | 0% | 0% | 0% | 0% | 0% |
+| **2** | 2% | 96% | 2% | 0% | 0% | 0% |
+| **3** | 0% | 0% | 100% | 0% | 0% | 0% |
+| **4** | 1% | 0% | 1% | 98% | 0% | 0% |
+| **5** | 0% | 0% | 0% | 0% | 100% | 0% |
+| **6** | 1% | 0% | 1% | 0% | 0% | 98% |
 
 As described in Part B of the Appendix, the aim of the program is to relocate citizens from regions 2, 4 and 6 towards regions 1 and 3. For regions 4 and 6, we have assumed a 2% relocation rate while region 2 has a doubled assumed relocation rate of 4%. 
 
