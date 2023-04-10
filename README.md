@@ -263,11 +263,18 @@ We can also see that the relative displacement cost of the program, in compariso
 
 To cover the displacement costs arising from climate-catastrophe related disasters and provide incentive packages to relocating citizens, Storslysia will need to hold a certain amount of capital in the short term to remain solvent which is known as the solvency capital. The mean total cost would not be sufficient as there is a significant chance that the total cost will be greater than the mean. To determine an appropriate solvency capital, the approximate distribution of the total cost needs to be simulated. The distribution of the simulated total cost over a 5-year time horizon for each scenario can be observed below:
 
-(add visuals)
+<div align="left">
+<img src="TotalCostDist.png"  width="600" height="350"/>
+</div>
 
 For our solvency capital, we will be using the figures calculated from the Value at Risk and Conditional Value at Risk at a 99.5% level looking at a 5-year time horizon. These are tabulated for each scenario below:
 
-(Add Table)
+>VaR and CVaR figures
+
+|      | **SSP1** | **SSP2** | **SSP3** | **SSP4** |
+| :--- | :------: | :------: | :------: | :------: |
+| VaR | Ꝕ10,551 m | Ꝕ8,748 m | Ꝕ10,031 m | Ꝕ10,109 m | 
+| CVaR | Ꝕ11,430 m | Ꝕ9,028 m | Ꝕ10,862 m | Ꝕ10,625 m |
 
 Since CVaR represents the mean of the losses above the VaR, it is a more conservative estimate for the solvency capital. Additionally, CVaR is more commonly used in practice for insurance solvency requirements and consequently it will be used.
 
@@ -312,8 +319,8 @@ Addressing the stated key risks, our program possesses appropriate risk mitigati
 To understand the impact of uncertainty and favourable/unfavourable conditions, we imbue moderate increases and decreases to our assumptions and observe the effects on final projection figures. We have chosen to only test the baseline scenario SSP2 as these impacts are shown to be similar across different scenarios. The results of our testing on total costs are detailed below: 
 <br>
 
-<div align="center">
-<img src="Screenshot 2023-04-08 171527.png"  width="550" height="300"/>
+<div align="left">
+<img src="Screenshot 2023-04-08 171527.png"  width="600" height="330"/>
 </div>
 
 <u><b>Inflation/interest rates:</b></u> Inflation and yields are tested separately, where short and long-term rates are changed by 1%. Note that inflation and yields are directly and inversely related to program costs respectively, due to the cost and investment nature such rates. Such changes have a minor/moderate impact on short and long-term costs respectively and does not undermine the program goals. As such, the severity posed by macroeconomic risk is reasonable.  
