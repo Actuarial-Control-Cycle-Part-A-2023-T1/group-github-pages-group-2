@@ -343,4 +343,12 @@ The secondary key objective was to ensure that the total yearly costs of the pro
 
 ## **Data and Data Limitations**
 
-(TODO)
+The following datasets were obtained from Storslysia’s task force: 
+
+* Demographic and Economic data – Used for calculating costs for medical, worker’s compensation, and temporary housing. The dataset was also utilized for projecting relocation activity. 
+* Hazard events - Used for categorising events by level of severity, namely ‘Minor’, ‘Medium’ and ‘Major’ for each region.Figures on weather-related costs were combined with temporary housing cost to derive total cost per capita. 
+* Emission scenarios – Used given population and GDP projections based on each CO2 emissions scenario. 
+
+The given datasets were scarce and coarse, which several figures such as population and GDP forecasts required interpolation for further granularity. Additionally, the distributions in property value were limited, as only the proportions of households in each value bracket were provided without mean property values. Hence, several mathematical assumptions were necessary to deduce the number of people and their associated costs per household subject to the hazards. 
+
+Furthermore, the dataset pertaining to hazard events was laden with extreme outlier values in property damage. This required further processing to gain better insight into the historical patterns of disaster-prone areas compared to safer regions.
