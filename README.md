@@ -237,9 +237,23 @@ The rates were chosen through mainly experimentation. The rates are meant to ref
 
 The short-term and long-term costs were simulated using the SSP frequency projections combined with the 2020 severity estimates. 500 simulations were run, in order to obtain the benefit of the LLN (Law of Large Numbers) where we could conduct CLT (Central Limit Theorem) hypothesis tests and accurately estimate the upper quantiles of our total cost distribution for solvency capital reasons. The simulation results are described in the table and visuals below.
 
-(Add Table)
+>Displacement Costs Without Program (Central Estimate)
 
-(Add Visuals)
+|      | **SSP1** | **SSP2** | **SSP3** | **SSP4** |
+| :--- | :------: | :------: | :------: | :------: |
+| 5 years | Ꝕ1,968 m | Ꝕ1,963m | Ꝕ1,945 m | Ꝕ2,036 m | 
+| 30 years | Ꝕ13,848 m | Ꝕ14,609 m | Ꝕ14,768 m | Ꝕ15,563 m |
+
+>Displacement Costs With Program (Central Estimate)
+
+|      | **SSP1** | **SSP2** | **SSP3** | **SSP4** |
+| :--- | :------: | :------: | :------: | :------: |
+| 5 years | Ꝕ1,862 m | Ꝕ1,851 m | Ꝕ1,840 m | Ꝕ1,924 m | 
+| 30 years | Ꝕ10,839 m | Ꝕ11,287 m | Ꝕ11,501 m | Ꝕ12,076 m |
+
+<div align="left">
+<img src="BarCharts.png"  width="1000" height="350"/>
+</div>
 
 By comparing the cost projections, we can see that the program decreases the mean displacement cost. This is expected as the program will influence people to relocate from Storslysia’s high risk regions to lower risk regions. We have confidence that this will occur with a greater than 99.99% confidence level from our CLT calculations. This satisfies the high degree of confidence required by our program goals.
 
