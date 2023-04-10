@@ -97,7 +97,14 @@ The historical data was collated into a 10-year moving average time series obser
 
 (add visual)
 
-(add table)
+| **Region**   | **Minor cpc** | **Medium cpc** | **Major cpc** | **Total cpc** | **Population** |
+| -----------: | ----------:   | -------------: | ------------: | ------------: | -------------: |
+| Region 1 | Ꝕ0.72 | Ꝕ2.05 | Ꝕ1.71 | Ꝕ4.48 | 6,306,408|
+| Region 2 | Ꝕ0.94 | Ꝕ3.95 | Ꝕ34.47 | Ꝕ39.36 | 4,212,348 |
+| Region 3 | Ꝕ0.75 | Ꝕ2.37 | Ꝕ6.89 | Ꝕ10.00 | 4,993,764 | 
+| Region 4 | Ꝕ0.86 | Ꝕ4.80 | Ꝕ27.35 | Ꝕ33.00 | 1,010,676 | 
+| Region 5 | Ꝕ0.72 | Ꝕ3.07 | Ꝕ21.42 | Ꝕ25.22 | 1,266,672 | 
+| Region 6 | Ꝕ0.60 | Ꝕ3.08 | Ꝕ21.44 | Ꝕ25.12 | 307,884 | 
 
 From the table and chart above, we can breakdown the regions into the following categories:
 * Regions 1 and 3 are **Low** risk. They have the lowest cost per capita at Ꝕ4.48 and Ꝕ10.00 respectively.
